@@ -1,0 +1,7 @@
+cd path/to/garden-fitness     # Go to the folder
+git init                      # Initialize a Git repo
+git add .                     # Add all files
+git commit -m "Initial commit"
+git branch -M main            # Rename branch to 'main'
+git remote add origin https://github.com/YOUR_USERNAME/garden-fitness.git
+git push -u origin main       # Push to GitHub
